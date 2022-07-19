@@ -55,7 +55,7 @@ export default sort;
 
 const sortingNumberFn = (done, array, element, elementInIndex) => {
   done = false;
-  const tmp = array[elementInIndex];
+  const temporal = array[elementInIndex];
   array[elementInIndex] = element;
-  return tmp;
+  return temporal;
 };
